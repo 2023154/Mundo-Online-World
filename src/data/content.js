@@ -94,7 +94,7 @@ export const baseContent = {
     templates: {
       title: 'Conheça nossos Templates',
       text: 'Confira em nosso Instagram os modelos exclusivos que podemos adaptar para o seu negócio.',
-      buttonLabel: 'Ver Templates no Instagram',
+      buttonLabel: 'Ver nossos Templates no Instagram',
       buttonHref: 'https://www.instagram.com/mundo_online_world/'
     },
     problem: {
