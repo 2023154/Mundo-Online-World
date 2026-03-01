@@ -14,168 +14,174 @@ export const languages = [
 export const baseContent = {
   nav: {
     home: 'Início',
-    details: 'Serviços',
+    details: 'Planos',
     faq: 'FAQ'
   },
   hero: {
     slides: [
       {
-        id: 'web-design',
-        title: 'Websites de Alta Performance',
-        tagline: 'Sua vitrine digital 24/7',
-        description: 'Desenvolvemos sites modernos, rápidos e otimizados para converter visitantes em clientes reais. Design responsivo para todos os dispositivos.',
+        id: 'FraseTitulo',
+        title: 'Expanda sua Presença Online',
+        tagline: 'Presença Digital Essencial',
+        description: 'Site estático de 1 página ideal para autônomos e microempreendedores. Nós criamos, hospedamos e gerenciamos para você.',
         price: {
-          main: 'PRO',
-          note: 'Consultoria gratuita inclusa'
+          main: '$99/anual',
+          note: 'Hospedagem estática (GitHub/Render) inclusa'
         },
         features: [
-          'Design Exclusivo e Moderno',
-          'Otimização para SEO (Google)',
-          'Painel de Controle Intuitivo'
+          'Site Estático de 1 Página',
+          'Conexão de Domínio Personalizado',
+          '1 Atualização Menor por mês',
+          'Até 3 Fotos de Marketing Inclusas',
+          'Suporte Direto (Email & WhatsApp)'
         ],
-        cta: 'Solicitar Orçamento',
+        cta: 'Assinar Plano Básico',
         image: card1,
-        imageAlt: 'Desenvolvimento de Websites Profissionais'
+        imageAlt: 'Plano de Website Básico'
       },
       {
-        id: 'systems',
-        title: 'Sistemas e Plataformas',
-        tagline: 'Automação e Gestão Inteligente',
-        description: 'Criamos sistemas internos, CRMs e plataformas personalizadas para gerir o seu negócio com eficiência e escala.',
+        id: 'professional-plan',
+        title: 'Plano Profissional',
+        tagline: 'Crescimento e Autoridade',
+        description: 'Site dinâmico de até 5 páginas com banco de dados. Perfeito para empresas que precisam de mais espaço e SEO.',
         price: {
-          main: 'TECH',
-          note: 'Soluções escaláveis'
+          main: '$199/anual',
+          note: 'Banco de Dados + 5GB de Armazenamento'
         },
         features: [
-          'Automação de Processos',
-          'Dashboards em Tempo Real',
-          'Segurança de Dados'
+          'Site Dinâmico de até 5 Páginas',
+          'Banco de Dados (Supabase)',
+          'Remoção da Marca d\'água "Built By"',
+          '3 Atualizações Menores por mês',
+          'Google Analytics e Configuração SEO'
         ],
-        cta: 'Ver Soluções',
+        cta: 'Assinar Plano Profissional',
         image: card2,
-        imageAlt: 'Sistemas Personalizados para Empresas'
+        imageAlt: 'Plano de Website Profissional'
       },
       {
-        id: 'traffic-social',
-        title: 'Tráfego Pago e Redes Sociais',
-        tagline: 'Escalando seu Faturamento',
-        description: 'Gestão completa de campanhas no Google e Meta Ads, aliada a um posicionamento estratégico nas redes sociais.',
+        id: 'premium-plan',
+        title: 'Plano Premium',
+        tagline: 'Solução Completa e Autonomia',
+        description: 'Plataforma completa e dinâmica. Faça login no CMS para editar seu próprio conteúdo e aceite pagamentos online.',
         price: {
-          main: 'GROWTH',
-          note: 'Foco total em ROI'
+          main: '$499/anual',
+          note: 'Tráfego de 50GB + 20GB de Armazenamento'
         },
         features: [
-          'Gestão de Anúncios (Ads)',
-          'Suporte em Redes Sociais',
-          'Relatórios de Performance'
+          'Painel de Login CMS para o Cliente',
+          'Integração de Pagamentos (Stripe)',
+          'Fotos e Atualizações Ilimitadas',
+          'Domínio Personalizado + Analytics',
+          'Suporte VIP (WhatsApp e Chamadas)'
         ],
-        cta: 'Escalar meu Negócio',
+        cta: 'Assinar Plano Premium',
         image: card3,
-        imageAlt: 'Gestão de Tráfego e Social Media'
+        imageAlt: 'Plano de Website Premium'
       }
     ],
     ctaLink: '#contact'
   },
   sales: {
     problem: {
-      title: 'Sua empresa está enfrentando estes desafios?',
+      title: 'Dificuldades com o seu site atual?',
       bullets: [
-        'Site lento, antigo ou que não funciona no celular',
-        'Processos manuais que tomam todo o seu tempo',
-        'Redes sociais paradas e sem engajamento',
-        'Dificuldade em atrair novos clientes qualificados',
-        'Investimento em anúncios sem retorno claro'
+        'Não tem tempo ou conhecimento para atualizar o site',
+        'Pagando taxas mensais altas para agências tradicionais',
+        'Site lento ou que não se adapta a telas de celular',
+        'Dificuldade para integrar formulários e banco de dados',
+        'Falta de suporte rápido quando você precisa de mudanças'
       ]
     },
     solution: {
-      title: 'Transformamos sua Presença Digital',
+      title: 'Nós Construímos e Gerenciamos Para Você',
       paragraphs: [
-        'Somos uma agência focada em resultados reais. Não entregamos apenas design; entregamos ferramentas de crescimento. Unimos tecnologia de ponta com estratégias de marketing validadas para colocar sua empresa à frente da concorrência.',
-        'Desde a criação de um site institucional até sistemas complexos de gestão, nosso foco é simplificar sua operação e maximizar seus lucros através do digital.'
+        'Esqueça os construtores de sites complicados. Nossa estrutura "Feito Para Você" garante que seu negócio tenha uma presença digital profissional sem a dor de cabeça da manutenção técnica.',
+        'Desde uma página estática ultrarrápida até plataformas dinâmicas com CMS próprio e pagamentos via Stripe, nossos planos anuais cobrem tudo: design, hospedagem e atualizações contínuas.'
       ]
     },
     product: {
-      title: 'Nossa Stack de Soluções Profissionais',
+      title: 'Recursos Inclusos nos Nossos Planos',
       items: [
         {
           icon: 'device',
-          title: 'Websites Premium',
-          description: 'Desenvolvimento focado em experiência do usuário e conversão imediata.'
+          title: 'Domínio Personalizado',
+          description: 'Traga o seu próprio domínio. Nós fazemos toda a conexão técnica gratuitamente em todos os planos.'
         },
         {
           icon: 'clipboard',
-          title: 'Sistemas Customizados',
-          description: 'Plataformas sob medida para resolver problemas específicos do seu negócio.'
+          title: 'Banco de Dados Integrado',
+          description: 'A partir do plano Profissional, seu site conta com a robustez do Supabase para gestão de dados e formulários.'
         },
         {
           icon: 'chart',
-          title: 'Tráfego Pago (Ads)',
-          description: 'Campanhas estratégicas para levar as pessoas certas até o seu produto.'
+          title: 'Atualizações Contínuas',
+          description: 'Precisa trocar uma foto ou um texto? Oferecemos atualizações menores mensais, ou edições ilimitadas no plano Premium.'
         },
         {
           icon: 'file',
-          title: 'Identidade Visual',
-          description: 'Criação de marcas e artes profissionais para manter sua empresa com um visual consistente.'
+          title: 'Google Analytics e SEO',
+          description: 'Otimização para os motores de busca e rastreamento de visitantes inclusos nos planos Profissional e Premium.'
         },
         {
           icon: 'shield',
-          title: 'Manutenção e Suporte',
-          description: 'Sua plataforma sempre online e segura com nosso monitoramento constante.'
+          title: 'Aceite Pagamentos Online',
+          description: 'No plano Premium, integramos o Stripe para que você possa vender produtos ou serviços diretamente no seu site.'
         },
         {
           icon: 'chart',
-          title: 'Consultoria de Growth',
-          description: 'Estratégias baseadas em dados para acelerar o crescimento e o ROI da sua empresa.'
+          title: 'Suporte Dedicado',
+          description: 'Fale diretamente com nossa equipe via Email ou WhatsApp. Clientes Premium têm acesso a suporte VIP e chamadas.'
         }
       ],
-      note: 'Cada projeto é único e recebe atenção personalizada da nossa equipe.'
+      note: 'Todos os sites são responsivos, garantindo uma experiência perfeita em computadores, tablets e celulares.'
     },
     benefits: {
-      title: 'Por que escolher nossa agência?',
+      title: 'Por que escolher nossa assinatura?',
       bullets: [
-        'Aumente sua visibilidade e autoridade online',
-        'Automatize tarefas repetitivas com sistemas inteligentes',
-        'Atraia leads qualificados prontos para comprar',
-        'Suporte técnico rápido e humano',
+        'Custos transparentes com faturamento anual único',
+        'Hospedagem e manutenção totalmente inclusas',
+        'Sites codificados à mão para máxima velocidade',
+        'Sem necessidade de conhecimentos técnicos da sua parte',
         'Design moderno que reflete a qualidade da sua empresa'
       ]
     },
     differentiators: {
-      title: 'Diferenciais que geram lucro',
+      title: 'Diferenciais que geram resultados',
       bullets: [
-        'Foco total em ROI (Retorno sobre Investimento)',
-        'Tecnologias modernas e performáticas',
-        'Transparência total em relatórios de tráfego',
-        'Entregas ágeis e dentro do prazo',
-        'Expertise em diversos nichos de mercado'
+        'Transição fácil de um site Estático (Basic) para Dinâmico (Pro/Premium)',
+        'Remoção de marca d\'água a partir do plano Profissional',
+        'Limites de armazenamento generosos (Até 20GB no Premium)',
+        'Integração direta com suas redes sociais e WhatsApp',
+        'Opção de Painel CMS para você ter controle total (Premium)'
       ]
     },
     primaryCta: {
       id: 'cta-primary',
-      title: 'Pronto para digitalizar seu negócio?',
-      text: 'Clique no botão abaixo para agendar uma consultoria gratuita e descobrir como podemos ajudar sua empresa a crescer.',
-      buttonLabel: 'Quero crescer meu negócio',
+      title: 'Pronto para colocar seu site no ar?',
+      text: 'Clique no botão abaixo para agendar sua consultoria gratuita e escolher o plano ideal para o seu negócio.',
+      buttonLabel: 'Quero meu site profissional',
       buttonHref: '#contact',
-      note: 'Consultoria estratégica sem compromisso.'
+      note: 'Configuração e design guiados pela nossa equipe.'
     },
     testimonials: {
       title: 'Quem confia em nosso trabalho',
       items: [
         {
-          quote: 'O novo sistema automatizou 40% das nossas tarefas diárias. Recuperamos tempo e aumentamos a precisão dos dados.',
-          author: 'Ricardo S., Diretor de Operações',
+          quote: 'O plano básico foi perfeito para a minha consultoria. Site no ar rápido, sem complicação e com suporte direto no WhatsApp.',
+          author: 'Ricardo S., Consultor Independente',
           rating: 5,
           avatar: 'https://randomuser.me/api/portraits/men/32.jpg'
         },
         {
-          quote: 'Nosso faturamento dobrou após as campanhas de tráfego pago. O suporte nas redes sociais também fez toda a diferença.',
-          author: 'Mariana L., Empresária',
+          quote: 'Fizemos o upgrade para o plano Premium e agora gerenciamos nosso próprio conteúdo pelo CMS, além de aceitar pagamentos via Stripe!',
+          author: 'Mariana L., Dona de E-commerce',
           rating: 5,
           avatar: 'https://randomuser.me/api/portraits/women/65.jpg'
         },
         {
-          quote: 'O site ficou incrível e muito rápido. Recebemos elogios dos clientes todos os dias pela facilidade de navegação.',
-          author: 'Carlos E., CEO TechStart',
+          quote: 'A equipe cuida de todas as atualizações de texto e fotos no plano Profissional. Economizo horas todos os meses.',
+          author: 'Carlos E., Proprietário de Clínica',
           rating: 5,
           avatar: 'https://randomuser.me/api/portraits/men/35.jpg'
         }
@@ -186,20 +192,20 @@ export const baseContent = {
       title: 'Perguntas frequentes',
       items: [
         {
-          question: 'Quanto tempo leva para criar um site?',
-          answer: 'O prazo médio para um site institucional é de 15 a 30 dias, dependendo da complexidade e do envio de materiais.'
+          question: 'O que é considerado uma "Atualização Menor"?',
+          answer: 'Uma atualização menor inclui trocas de texto, substituição de imagens, ou ajustes de links. Mudanças completas de layout não estão inclusas.'
         },
         {
-          question: 'Vocês cuidam de tudo nas redes sociais?',
-          answer: 'Sim! Desde o planejamento de conteúdo, criação de artes, legendas e até a interação estratégica com o público.'
+          question: 'Vocês compram o domínio para mim?',
+          answer: 'Você deve comprar e trazer o seu próprio domínio (ex: godaddy, registro.br). A partir daí, nós cuidamos de toda a conexão técnica gratuitamente em qualquer plano.'
         },
         {
-          question: 'O tráfego pago garante vendas?',
-          answer: 'O tráfego garante que pessoas qualificadas vejam sua oferta. A venda depende do conjunto: oferta, produto e atendimento.'
+          question: 'Como funciona o acesso CMS no plano Premium?',
+          answer: 'No plano Premium, criamos um painel de controle (CMS) seguro onde você mesmo pode fazer login para editar textos, adicionar novos serviços ou fotos de forma ilimitada.'
         },
         {
-          question: 'Como funcionam os sistemas personalizados?',
-          answer: 'Analisamos suas dores de gestão e criamos uma ferramenta web sob medida para resolver esses problemas específicos.'
+          question: 'Posso começar com o Básico e mudar depois?',
+          answer: 'Com certeza! Você pode fazer o upgrade do seu site estático para uma versão dinâmica (Profissional ou Premium) a qualquer momento pagando a diferença.'
         }
       ]
     },
@@ -212,12 +218,12 @@ export const baseContent = {
   },
   contact: {
     title: 'Inicie seu Projeto Agora',
-    subtitle: 'Preencha o formulário abaixo e entraremos em contato para entender suas necessidades e propor a melhor solução.',
+    subtitle: 'Preencha o formulário abaixo e entraremos em contato para entender suas necessidades e propor o melhor plano.',
     disclaimer: 'Seus dados estão seguros conosco e serão usados apenas para contato comercial.',
     form: {
       name: 'Seu nome ou nome da empresa',
       email: 'Seu melhor e-mail',
-      message: 'Conte um pouco sobre seu projeto ou necessidade',
+      message: 'Conte um pouco sobre seu projeto ou qual plano te interessou',
       button: 'Enviar Solicitação'
     }
   },
