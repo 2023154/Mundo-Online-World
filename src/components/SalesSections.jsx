@@ -97,16 +97,16 @@ const FAQList = ({ items }) => (
 )
 
 const CtaCard = ({ id, title, text, buttonLabel, buttonHref = '#checkout', note }) => (
-  <section id={id} className="rounded-3xl border border-brand-primary/20 bg-gradient-to-br from-zinc-900 via-zinc-950 to-brand-primary/20 p-8 text-center shadow-2xl">
-    <h2 className="text-3xl font-semibold text-white">{title}</h2>
-    <p className="mt-3 text-base text-zinc-400">{text}</p>
+  <section id={id} className="rounded-3xl border border-blue-400/30 bg-gradient-to-br from-blue-600 via-blue-500 to-cyan-400 p-8 text-center shadow-2xl text-white">
+    <h2 className="text-3xl font-bold">{title}</h2>
+    <p className="mt-3 text-lg opacity-90">{text}</p>
     <a
       href={buttonHref}
-      className="mt-6 inline-flex items-center justify-center rounded-full border-2 border-slate-900 bg-slate-900 px-10 py-5 text-base font-black uppercase text-white shadow-md transition-all duration-300 hover:bg-white hover:text-slate-900"
+      className="mt-6 inline-flex items-center justify-center rounded-full bg-white px-10 py-5 text-base font-black uppercase text-blue-600 shadow-md transition-all duration-300 hover:scale-105 hover:bg-zinc-50"
     >
       {buttonLabel}
     </a>
-    {note ? <p className="mt-4 text-xs uppercase tracking-widest text-zinc-500">{note}</p> : null}
+    {note ? <p className="mt-4 text-xs font-bold uppercase tracking-widest text-blue-100 opacity-80">{note}</p> : null}
   </section>
 )
 

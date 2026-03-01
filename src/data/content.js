@@ -22,9 +22,9 @@ export const baseContent = {
     slides: [
       {
         id: 'FraseTitulo',
-        title: 'Expanda sua Presença Online',
-        tagline: 'Presença Digital Essencial',
-        description: 'Site estático de 1 página ideal para autônomos e microempreendedores. Nós criamos, hospedamos e gerenciamos para você.',
+        title: 'Sua Empresa na Vitrine Digital',
+        tagline: 'Presença Digital de Alta Performance',
+        description: 'Conquiste credibilidade e atraia novos clientes com um site profissional, veloz e otimizado. Nós cuidamos de toda a tecnologia para você focar no seu crescimento.',
         price: {
           main: '$99/anual',
           oldPrice: '$330',
