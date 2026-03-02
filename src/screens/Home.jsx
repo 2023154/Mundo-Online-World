@@ -1,7 +1,8 @@
 import { HeroSlider } from '../components/HeroSlider'
+import { CountdownTimer } from '../components/CountdownTimer'
 import coverImage from '../images/imagemPrincipal.png'
 
-export function HomeScreen({ slides, ctaLink, loading }) {
+export function HomeScreen({ slides, ctaLink, loading, offer }) {
   const sliderSlides = slides.map((slide) => ({ ...slide, ctaLink: slide.ctaLink ?? ctaLink ?? '#courses' }))
   const primarySlide = sliderSlides[0] ?? {}
   const primaryTitle = primarySlide.title ?? 'We boost your Digital Presence with Strategy'
@@ -9,7 +10,7 @@ export function HomeScreen({ slides, ctaLink, loading }) {
 
   return (
     <section id="home" className="relative bg-white text-zinc-950">
-      <div className="relative h-[70vh] min-h-[600px] max-h-[1000px] w-full overflow-hidden md:h-[60vh]">
+      <div className="relative h-[85vh] min-h-[700px] max-h-[1200px] w-full overflow-hidden md:h-[80vh]">
         <img
           src={coverImage}
           alt="Main Cover"

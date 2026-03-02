@@ -14,7 +14,7 @@ export function Header({ labels, languages, currentLanguage, onSelectLanguage, l
   const currentLangObj = languages?.find(l => l.code === currentLanguage)
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-100 bg-white/90 backdrop-blur-md">
+    <header className="border-b border-slate-100 bg-white/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 text-sm sm:px-6 sm:py-6 sm:text-base">
         <div className="flex flex-col">
           <div className="flex items-center gap-2">

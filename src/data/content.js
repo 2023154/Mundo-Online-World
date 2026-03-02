@@ -248,5 +248,16 @@ export const baseContent = {
   footer: {
     title: '',
     links: []
+  },
+  limitedOffer: {
+    title: 'Limited Time Offer: 50% OFF first year',
+    subtitle: 'Expires in:',
+    targetDate: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toISOString(),
+    timerLabels: {
+      days: 'Days',
+      hours: 'Hours',
+      minutes: 'Mins',
+      seconds: 'Secs'
+    }
   }
 }
